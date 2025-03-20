@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             'pais' =>fake()->country(),
             'direccion' =>fake()->address(),
             'direccion_envio' =>fake()->address(),
-            'referido' =>'false',
+            'referido' =>false,
             'rol' => 'Administrador',
         ]);
 
@@ -42,7 +42,7 @@ class DatabaseSeeder extends Seeder
             'pais' =>fake()->country(),
             'direccion' =>fake()->address(),
             'direccion_envio' =>fake()->address(),
-            'referido' =>'false',
+            'referido' =>false,
             'rol' => 'Usuario',
         ]);
 
